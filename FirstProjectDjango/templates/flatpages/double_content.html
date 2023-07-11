@@ -1,0 +1,28 @@
+{% extends 'flatpages/default.html' %}
+
+{% block uptitle %}
+    {{ flatpage.title }}
+{% endblock uptitle %}
+
+{% block title %}
+    {{ flatpage.title }}
+{% endblock title %}
+
+{% block about %}
+    <h1 style="text-align: center;"><span style="color: #000000;">МНОГО</span></h1>
+    <h2 style="text-align: center;"><span style="color: #000000;">МНОГО</span></h2>
+    <h3 style="text-align: center;"><span style="color: #000000;">МНОГО&nbsp;</span></h3>
+    <h3 style="text-align: center;"><span style="color: #000000;">текста</span></h3>
+{% endblock about %}
+
+{% block content %}
+    {{ flatpage.content }}
+    {{ flatpage.content }}
+{% endblock content %}
+
+{% block contacts %}
+    <h2>Наши контакты:</h2>
+    <hr>
+    <p>&hearts;&nbsp;<strong>8 (910) 444-32-31 </strong>- наш <em>менедж</em><span style="color: #ffffff;"><em>ер</em></span></p>
+    <p><strong>&hearts;&nbsp;8 (905) 666-54-12 </strong>- наш <em>директор</em></p>
+{% endblock contacts %}
